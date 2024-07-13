@@ -20,7 +20,7 @@ The pipeline is designed to:
 4. Load the transformed data into Amazon Redshift for analytics and querying.
 
 ## Architecture
-![Architecture.png](assets%2FRedditDataEngineering.png)
+![Architecture.png](RedditDataEngineering.png)
 1. **Reddit API**: Source of the data.
 2. **Apache Airflow & Celery**: Orchestrates the ETL process and manages task distribution.
 3. **PostgreSQL**: Temporary storage and metadata management.
@@ -63,8 +63,4 @@ The pipeline is designed to:
 7. Launch the Airflow web UI.
    ```bash
     open http://localhost:8080
-   ```
-
-
-## Video
-[![Reddit Data Engineering](https://img.youtube.com/vi/LSlt6iVI_9Y/0.jpg)](https://www.youtube.com/watch?v=LSlt6iVI_9Y)
+   ``` 
