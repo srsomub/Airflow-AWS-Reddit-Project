@@ -1,6 +1,5 @@
 # Building Data Pipeline on Reddit data using Airflow and AWS services
-This project provides a comprehensive data pipeline solution to extract, transform, and load (ETL) Reddit data into a Redshift data warehouse. The pipeline leverages a combination of tools and services including Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, Amazon Athena, and Amazon Redshift.
-This project offers a robust and automated solution for processing and analyzing Reddit data. It leverages the power of cloud-based services to ensure scalability, efficiency, and user-friendly access to valuable insights
+This project offers a robust and automated solution for processing and analyzing Reddit data. It leverages the power of AWS cloud-based services to ensure scalability, efficiency, and user-friendly access to valuable insights
 
 ### Architecture
 
